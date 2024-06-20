@@ -1,0 +1,48 @@
+/* ShippingInfo.module.css */
+
+.shippingInfo {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--text-dark-color);
+    text-align: center;
+  }
+  
+  .shippingInfo h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .shippingInfo h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .shippingInfo p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .shippingInfo ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .shippingInfo ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+  }
+  
+  .shippingInfo a {
+    text-decoration: none;
+    color: var(--button-primary-background-color);
+    font-weight: var(--button-font-weight);
+  }
+  
+  .shippingInfo a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,37 @@
+/* Privacy.module.css */
+
+.privacyInfo {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--text-dark-color);
+    text-align: center;
+  }
+  
+  .privacyInfo h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .privacyInfo h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .privacyInfo p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .privacyInfo a {
+    text-decoration: none;
+    color: var(--button-primary-background-color);
+    font-weight: var(--button-font-weight);
+  }
+  
+  .privacyInfo a:hover {
+    text-decoration: underline;
+  }
+  

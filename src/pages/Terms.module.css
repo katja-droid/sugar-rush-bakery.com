@@ -1,0 +1,37 @@
+/* TermsOfService.module.css */
+
+.termsInfo {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--text-dark-color);
+    text-align: center;
+  }
+  
+  .termsInfo h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .termsInfo h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .termsInfo p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .termsInfo a {
+    text-decoration: none;
+    color: var(--button-primary-background-color);
+    font-weight: var(--button-font-weight);
+  }
+  
+  .termsInfo a:hover {
+    text-decoration: underline;
+  }
+  
