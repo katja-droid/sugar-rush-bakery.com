@@ -7,9 +7,9 @@ import Hero from '../components/Hero';
 const Home = () => {
   return (<>
   <Hero/>
-    <div className={styles.container}>
+    <div id="products-section" className={styles.container}>
       <h1 className={styles.heading}>Products</h1>
-      <div id="products-section" className={styles.grid}>
+      <div  className={styles.grid}>
         {products.map(product => (
           <ProductCard key={product.id} product={product} />
         ))}
