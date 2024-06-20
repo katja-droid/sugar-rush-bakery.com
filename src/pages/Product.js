@@ -10,7 +10,9 @@ const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const { thankYouProduct, thankYouOrder} = useSite();
+  const { thankYouProduct, thankYouOrder } = useSite();
+  const [email, setEmail] = useState('');
+
   useEffect(() => {
     const productData = products.find(product => product.id === parseInt(id, 10));
     setProduct(productData);
@@ -19,6 +21,7 @@ const Product = () => {
   const handleOrderSubmit = (e) => {
     e.preventDefault();
     setIsModalOpen(true);
+    setEmail(''); // Clear the email input field
   };
 
   const handleCloseModal = () => {
@@ -42,14 +45,22 @@ const Product = () => {
           <p className={styles.price}>€ {product.price}</p>
           <p className={styles.description}>{product.description}</p>
           <form className={styles.orderForm} onSubmit={handleOrderSubmit}>
-            <input placeholder="Email" type="email" id="email" name="email" required />
-            <br/>
+            <input
+              placeholder="Email"
+              type="email"
+              id="email"
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+            <br />
             <button type="submit">Order</button>
           </form>
         </div>
       </div>
 
-      <Modal isOpen={isModalOpen} onClose={handleCloseModal} closeButtonColor="red">
+      <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
         <h2>Thank You!</h2>
         <p>{thankYouOrder}</p>
       </Modal>
