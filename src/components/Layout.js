@@ -15,7 +15,7 @@ const Layout = () => {
     <div >
       <Header />
     
-      <main>
+      <main style={{paddingTop: '13vh'}}>
         <Outlet />
       </main>
       <Footer />
