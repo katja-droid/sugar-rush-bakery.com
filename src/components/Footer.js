@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { siteName } = useSite();
+  const currentYear = new Date().getFullYear(); // Get the current year
 
   return (
     <footer className={styles.footer}>
@@ -15,8 +16,8 @@ const Footer = () => {
         <Link to="/delivery" className={styles.footerLink}>Delivery Policy</Link>
       </div>
       <div className={styles.linksRow}>
-      <Link to="/terms" className={styles.footerLink}>Terms and Conditions</Link>
-      <Link to="/privacy" className={styles.footerLink}>Privacy Policy</Link>
+        <Link to="/terms" className={styles.footerLink}>Terms and Conditions</Link>
+        <Link to="/privacy" className={styles.footerLink}>Privacy Policy</Link>
       </div>
       <SubscriptionForm /> {/* Add the SubscriptionForm component here */}
       <div className={styles.socialIconsRow}>
@@ -27,7 +28,7 @@ const Footer = () => {
         ))}
       </div>
       <div className={styles.footerCopyright}>
-        {siteName} &copy; <br/> All rights reserved.
+        {siteName} &copy; {currentYear} <br/> All rights reserved.
       </div>
     </footer>
   );

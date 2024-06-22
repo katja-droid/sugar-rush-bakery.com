@@ -3,15 +3,17 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Product from './pages/Product';
-import './App.css'
+import './App.css';
 import Delivery from './pages/Delivery';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Return from './pages/Return';
+import ScrollToTop from './components/ScrollToTop'; // Import ScrollToTop component
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop /> {/* Include ScrollToTop component */}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
