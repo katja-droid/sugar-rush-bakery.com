@@ -21,21 +21,22 @@ const SubscriptionForm = () => {
   return (
     <div className={styles.subscriptionForm}>
       <form onSubmit={handleSubmit} className={styles.form}>
+        <h3>Bültenimize abone olun</h3>
         <input
           type="email"
-          placeholder="Enter your email"
+          placeholder="E-posta adresinizi girin"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           className={styles.emailInput}
           required
         />
         <button type="submit" className={styles.subscribeButton}>
-          Subscribe
+          Abone Ol
         </button>
       </form>
       <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
-        <h2>Thank you!</h2>
-        Thank you for subscribing!
+        <h2>Teşekkürler!</h2>
+        Abone olduğunuz için teşekkür ederiz!
       </Modal>
     </div>
   );

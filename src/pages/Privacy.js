@@ -7,37 +7,37 @@ const Privacy = () => {
 
   return (
     <div className={styles.privacyInfo}>
-      <h1>PRIVACY COMMITMENT</h1>
-      <p>At {siteName}, we prioritize your privacy and the security of your information. This document outlines our commitment to safeguarding your data and explains the practices you agree to by using our services and website.</p>
+      <h1>GİZLİLİK TAAHHÜDÜ</h1>
+      <p>{siteName} olarak gizliliğinize ve bilgilerinizin güvenliğine öncelik veriyoruz. Bu belge, verilerinizi koruma taahhüdümüzü ortaya koyar ve <strong>pin-upaz.podarunochky.com.ua</strong> adresindeki hizmetlerimizi ve web sitemizi kullanarak kabul ettiğiniz uygulamaları açıklar.</p>
 
-      <h2>1. INFORMATION COLLECTION</h2>
-      <p><strong>Personal Data:</strong> During transactions, we collect necessary details such as your name, email, postal address, and payment information.</p>
-      <p><strong>Interaction Data:</strong> We track your engagement with our website using technologies like cookies, noting your IP address and browser type.</p>
+      <h2>1. BİLGİ TOPLAMA</h2>
+      <p><strong>Kişisel Veriler:</strong> Üyelik kaydı ve ders rezervasyonları sırasında adınız, e-posta adresiniz, posta adresiniz ve ödeme bilgileriniz gibi gerekli detayları toplarız.</p>
+      <p><strong>Etkileşim Verileri:</strong> Çerezler gibi teknolojiler kullanarak web sitemizle olan etkileşiminizi izleriz ve kullanıcı deneyimini geliştirmek için IP adresiniz ve tarayıcı türünüz gibi bilgileri kaydederiz.</p>
 
-      <h2>2. INFORMATION USAGE</h2>
-      <p><strong>Transaction Processing:</strong> Your personal data is used to manage and fulfill orders and to maintain communication throughout the transaction process.</p>
-      <p><strong>Communication:</strong> We utilize your contact information to send order confirmations and updates.</p>
-      <p><strong>Customization:</strong> With your consent, we personalize your website experience based on your past interactions and preferences.</p>
-      <p><strong>Service Enhancement:</strong> We analyze collected data to continuously improve our website and services.</p>
+      <h2>2. BİLGİ KULLANIMI</h2>
+      <p><strong>Üyelik Yönetimi:</strong> Kişisel verileriniz, üyeliğinizi yönetmek, ders programlarını düzenlemek ve bizimle olan etkileşiminiz boyunca iletişimi sürdürmek için kullanılır.</p>
+      <p><strong>İletişim:</strong> Sınıf onaylarını, program güncellemelerini ve üyeliğinizle ilgili önemli duyuruları göndermek için iletişim bilgilerinizi kullanırız.</p>
+      <p><strong>Özelleştirme:</strong> Onayınızla, geçmiş etkileşimleriniz ve tercihlerinize göre web sitesi deneyiminizi kişiselleştirir ve size özel öneriler ve hizmetler sunarız.</p>
+      <p><strong>Hizmet Geliştirme:</strong> Tüm üyeler için daha iyi bir deneyim sağlamak amacıyla toplanan verileri analiz ederek web sitemizi ve hizmetlerimizi sürekli olarak iyileştiririz.</p>
 
-      <h2>3. INFORMATION DISCLOSURE</h2>
-      <p><strong>Business Operations:</strong> Your data may be shared with third-party service providers under strict privacy agreements to assist with operations such as logistics and payment processing.</p>
-      <p><strong>Legal Obligations:</strong> We may disclose your information if required by law to protect our rights, ensure the security of our services, or uphold public safety.</p>
+      <h2>3. BİLGİ AÇIKLAMASI</h2>
+      <p><strong>İşletme Operasyonları:</strong> Verileriniz, sınıf yönetimi ve ödeme işlemleri gibi operasyonlara yardımcı olmak için katı gizlilik anlaşmaları altında üçüncü taraf hizmet sağlayıcılarla paylaşılabilir.</p>
+      <p><strong>Yasal Yükümlülükler:</strong> Haklarımızı korumak, hizmetlerimizin güvenliğini sağlamak veya kamu güvenliğini sağlamak amacıyla yasal gereklilik durumunda bilgilerinizi açıklayabiliriz.</p>
 
-      <h2>4. SECURITY MEASURES</h2>
-      <p>Our security protocols are designed to protect your personal information from unauthorized access and misuse. However, please note that transmitting information online carries inherent risks.</p>
+      <h2>4. GÜVENLİK ÖNLEMLERİ</h2>
+      <p>Güvenlik protokollerimiz, kişisel bilgilerinizi yetkisiz erişim ve kötüye kullanımdan korumak için tasarlanmıştır. Ancak, bilgilerin çevrimiçi iletilmesinin doğasında var olan riskler olduğunu lütfen unutmayın.</p>
 
-      <h2>5. YOUR PRIVACY CHOICES</h2>
-      <p><strong>Marketing Opt-out:</strong> You can opt out of receiving marketing messages at any time using the links provided in our communications or by contacting us directly.</p>
-      <p><strong>Cookies:</strong> Manage your cookie preferences through your web browser settings.</p>
+      <h2>5. GİZLİLİK TERCİHLERİNİZ</h2>
+      <p><strong>Tanıtım Mesajlarından Çıkış:</strong> Herhangi bir zamanda, iletişimlerimizde sağlanan bağlantıları kullanarak veya doğrudan bizimle iletişime geçerek tanıtım mesajlarını almayı durdurabilirsiniz.</p>
+      <p><strong>Çerezler:</strong> Etkileşim verilerinizin nasıl toplandığını kontrol etmek için çerez tercihlerinizi web tarayıcı ayarlarınızdan yönetebilirsiniz.</p>
 
-      <h2>6. CHILD SAFETY</h2>
-      <p>We do not knowingly collect data from individuals under 16. Any inadvertently collected information will be promptly deleted from our systems.</p>
+      <h2>6. ÇOCUK GÜVENLİĞİ</h2>
+      <p>16 yaş altındaki bireylerden bilerek veri toplamıyoruz. Yanlışlıkla toplanan herhangi bir bilgi sistemlerimizden derhal silinecektir.</p>
 
-      <h2>7. POLICY UPDATES</h2>
-      <p>We periodically update our Privacy Policy to reflect new practices. We encourage regular review of the policy, as continued use of our services post-update signifies acceptance of changes.</p>
+      <h2>7. POLİTİKA GÜNCELLEMELERİ</h2>
+      <p>Gizlilik Politikamızı yeni uygulamaları yansıtacak şekilde periyodik olarak güncelliyoruz. Politikayı düzenli olarak gözden geçirmenizi öneririz, çünkü hizmetlerimizi güncellemeler sonrasında kullanmaya devam etmeniz, değişiklikleri kabul ettiğiniz anlamına gelir.</p>
 
-      <p>For inquiries or more information about our privacy practices, please contact us at <a href={`mailto:info@${siteName.toLowerCase()}`}>info@{siteName}</a>. We are dedicated to promptly addressing your concerns and protecting your privacy rights.</p>
+      <p>Gizlilik uygulamalarımız hakkında sorularınız veya daha fazla bilgi almak için lütfen <a href={`mailto:info@pin-upaz.podarunochky.com.ua`}>info@pin-upaz.podarunochky.com.ua</a> adresinden bizimle iletişime geçin. Sorularınızı hızlı bir şekilde yanıtlamak ve gizlilik haklarınızı korumaya kararlıyız.</p>
     </div>
   );
 };

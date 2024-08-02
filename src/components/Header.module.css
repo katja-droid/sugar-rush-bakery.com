@@ -1,23 +1,25 @@
+/* src/components/Header.module.css */
 @import '../variables.css';
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 13vh;
   background-color: var(--header-color); /* Adjust background color as needed */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
   position: fixed; /* Make the header fixed */
   top: 0;
-  width: 100%; /* Ensure the header spans the full width */
+  width: 96%; /* Ensure the header spans the full width */
   z-index: 1000; /* Ensure the header is on top of other elements */
+  padding: 0 2%;
 }
 
 .logoContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 13vh; 
+  max-height: 13vh;
   width: auto;
 }
 
@@ -28,7 +30,39 @@
   object-fit: contain;
 }
 
+.navLinks {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  padding: 0;
+  
+}
+
+.navLink {
+  cursor: pointer;
+  color: var(--button-primary-text-color); /* Adjust color as needed */
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+
+.navLink:hover {
+  color: #97E7E1; /* Adjust hover color as needed */
+}
+
 /* Add padding to the top of the main content to avoid it being hidden behind the fixed header */
 .main-content {
   padding-top: 13vh; /* Match the height of the header */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navLink {
+    font-size: 0.8em; /* Reduce font size on mobile devices */
+  }
+  
+  .navLinks {
+    gap: 10px; /* Reduce gap between links on mobile devices */
+  }
 }

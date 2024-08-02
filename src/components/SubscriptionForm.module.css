@@ -8,8 +8,11 @@
     flex-direction: column; /* Change to column to stack input and button */
     justify-content: center;
     align-items: center;
+    color: var(--text-light-color) !important;
   }
-  
+  h3{
+    color: var(--text-light-color);
+  }
   .emailInput {
     padding: 10px;
     font-size: 16px;

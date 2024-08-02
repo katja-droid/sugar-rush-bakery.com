@@ -7,35 +7,35 @@ const Terms = () => {
 
   return (
     <div className={styles.termsInfo}>
-      <h1>TERMS OF SERVICE</h1>
-      <p>Welcome to {siteName}! By accessing and using our website, you agree to comply with the following terms and conditions. If you do not agree, please do not use our site.</p>
+      <h1>HİZMET KOŞULLARI</h1>
+      <p>{siteName}'a hoş geldiniz! <strong>pin-upaz.podarunochky.com.ua</strong> adresindeki web sitemize erişerek ve kullanarak aşağıdaki şart ve koşullara uymayı kabul etmiş olursunuz. Kabul etmiyorsanız, lütfen sitemizi kullanmayın.</p>
       
-      <h2>1. INTELLECTUAL PROPERTY RIGHTS</h2>
-      <p>All content on our website, including text, graphics, logos, icons, images, and videos, belongs to {siteName} and is protected by copyright and intellectual property laws. Unauthorized use or reproduction is strictly prohibited.</p>
+      <h2>1. FİKRİ MÜLKİYET HAKLARI</h2>
+      <p>Web sitemizdeki tüm içerikler, metinler, grafikler, logolar, simgeler, resimler ve videolar dahil olmak üzere {siteName}'a aittir ve telif hakkı ve fikri mülkiyet yasaları ile korunmaktadır. Yetkisiz kullanım veya çoğaltma kesinlikle yasaktır.</p>
       
-      <h2>2. PERMISSIBLE USE</h2>
-      <p>Our website is intended for personal, non-commercial use only. You may not modify, distribute, or reproduce any content without explicit written permission. Activities that may compromise the functionality or security of our site, such as introducing malware, are prohibited.</p>
+      <h2>2. İZİN VERİLEN KULLANIM</h2>
+      <p>Web sitemiz, fitness hizmetlerimizi ve olanaklarımızı keşfetmek için kişisel kullanım amaçlı tasarlanmıştır. Herhangi bir içeriği yazılı izin almadan değiştiremez, dağıtamaz veya çoğaltamazsınız. Zararlı yazılımlar gibi sitemizin işlevselliğini veya güvenliğini tehlikeye atabilecek faaliyetler yasaktır.</p>
       
-      <h2>3. INFORMATION ACCURACY</h2>
-      <p>We strive to ensure that all product information is accurate. However, we cannot guarantee that all details are error-free. We reserve the right to correct any inaccuracies in product descriptions, prices, and availability without prior notice.</p>
+      <h2>3. BİLGİ DOĞRULUĞU</h2>
+      <p>Fitness programlarımız, derslerimiz ve üyelik seçeneklerimizle ilgili tüm bilgilerin doğru olmasını sağlamaya çalışıyoruz. Ancak, tüm bilgilerin hatasız olduğunu garanti edemeyiz. Ders programları, fiyatlar ve kullanılabilirlikteki hataları önceden bildirimde bulunmaksızın düzeltme hakkını saklı tutarız.</p>
       
-      <h2>4. PRICING AND TRANSACTIONS</h2>
-      <p>Prices listed on our site are subject to change and are displayed in the relevant currency. We offer secure payment options, and acceptable payment methods are outlined during checkout.</p>
+      <h2>4. FİYATLAR VE İŞLEMLER</h2>
+      <p>Üyelik ve hizmet fiyatları değişebilir ve yerel para biriminde gösterilir. Güvenli ödeme seçenekleri sunuyoruz ve kabul edilen ödeme yöntemleri ödeme veya üyelik kaydı sırasında belirtilir.</p>
       
-      <h2>5. ORDERS AND CANCELLATIONS</h2>
-      <p>Placing an order constitutes an offer to purchase, which we may accept or reject. We reserve the right to cancel orders due to reasons such as stock unavailability or payment issues. Affected customers will be promptly notified and reimbursed.</p>
+      <h2>5. ÜYELİKLER VE İPTALLER</h2>
+      <p>Bir üyelik satın almak {siteName}'a katılma teklifinde bulunur ve bu teklifi kabul edebilir veya reddedebiliriz. Kulüp kurallarına uymama veya ödeme sorunları gibi nedenlerle üyelikleri iptal etme hakkını saklı tutarız. Etkilenen üyeler hızla bilgilendirilir ve uygun şekilde tazmin edilir.</p>
       
-      <h2>6. SHIPPING AND RETURNS</h2>
-      <p>We offer shipping services to various locations, with fees and delivery times varying by method and destination. Please refer to our detailed Shipping and Returns Policy for further information.</p>
+      <h2>6. DERS REZERVASYONLARI VE İPTALLER</h2>
+      <p>Üyeler dersleri web sitemizden rezerve edebilirler. İptaller, ders iptali politikamıza uygun olarak yapılmalıdır. Gerektiğinde dersleri iptal etme veya yeniden planlama hakkını saklı tutarız ve üyeleri bu tür değişikliklerden hızlı bir şekilde haberdar ederiz.</p>
       
-      <h2>7. EXTERNAL LINKS</h2>
-      <p>Our website may contain links to external sites not operated by us. We are not responsible for the content or privacy practices of these external sites, so please exercise caution when accessing them.</p>
+      <h2>7. DIŞ BAĞLANTILAR</h2>
+      <p>Web sitemiz, tarafımızdan işletilmeyen harici sitelere bağlantılar içerebilir. Bu harici sitelerin içeriği veya gizlilik uygulamalarından sorumlu değiliz, bu nedenle bu sitelere erişirken dikkatli olun.</p>
       
-      <h2>8. LIMITATION OF LIABILITY</h2>
-      <p>Neither {siteName} nor its affiliates are liable for any direct, indirect, incidental, special, or consequential damages arising from your use of our website or reliance on the information provided.</p>
+      <h2>8. SORUMLULUK SINIRLAMASI</h2>
+      <p>{siteName} veya bağlı kuruluşları, web sitemizi kullanmanızdan veya sağlanan bilgilere güvenmenizden kaynaklanan doğrudan, dolaylı, arızi, özel veya sonuç olarak ortaya çıkan zararlardan sorumlu değildir. Sorumluluğumuz, yasaların izin verdiği azami ölçüde sınırlıdır.</p>
       
-      <h2>9. ACCEPTANCE OF TERMS</h2>
-      <p>These terms are subject to change without prior notice. Your continued use of our site following any updates signifies your acceptance of the revised terms. If you have any questions about these terms, please contact us at <a href={`mailto:info@${siteName.toLowerCase()}`}>info@{siteName}</a>.</p>
+      <h2>9. ŞARTLARIN KABULÜ</h2>
+      <p>Bu şartlar, önceden bildirimde bulunulmaksızın değiştirilebilir. Sitemizi güncellemeleri takiben kullanmaya devam etmeniz, revize edilmiş şartları kabul ettiğiniz anlamına gelir. Bu şartlar hakkında herhangi bir sorunuz varsa, lütfen <a href={`mailto:info@pin-upaz.podarunochky.com.ua`}>info@pin-upaz.podarunochky.com.ua</a> adresinden bizimle iletişime geçin.</p>
     </div>
   );
 };

@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import styles from './CookieBar.module.css';
 import { Link } from 'react-router-dom';
@@ -22,8 +21,8 @@ const CookieBar = () => {
   return (
     isVisible && (
       <div className={styles.cookieBar}>
-        <p>This website uses cookies. Press the button to confirm you agree to this. <Link to="/privacy">Learn more</Link></p>
-        <button onClick={handleConfirm} className={styles.confirmButton}>Confirm</button>
+        <p>Bu web sitesi çerezleri kullanır. Kabul ettiğinizi onaylamak için butona basın. <Link to="/privacy">Daha fazla bilgi edinin</Link></p>
+        <button onClick={handleConfirm} className={styles.confirmButton}>Onayla</button>
       </div>
     )
   );
