@@ -9,7 +9,7 @@
   align-items: center;
   position: fixed;
   top: 10px;
-  left: 37.5vw;
+  left: 70vw;
   width: 25vw;
   z-index: 1000;
   box-sizing: border-box; /* Ensures padding is included in the total width */
