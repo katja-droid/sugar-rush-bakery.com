@@ -1,52 +1,83 @@
 .carousel {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    overflow: hidden;
-  }
-  
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.slideContainer {
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: #000;
+}
+
+.slide img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide img:hover {
+  transform: scale(1.05);
+}
+
+.navigation {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.prev, .next {
+  background-color: rgba(184, 184, 184, 0.8);
+  color: #333;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.prev:hover, .next:hover {
+  background-color: #000;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.indicator:hover, .active {
+  background-color: #fff;
+}
+
+@media (max-width: 900px) {
   .slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 87vh;
+    height: 300px;
   }
-  
-  .slide img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-  }
-  
-  .prev {
-    left: 10px;
-  }
-  
-  .next {
-    right: 10px;
-  }
-  
-  @media (max-width: 900px) {
-    .slide {
-      height: 30vh;
-    }
-  }
-  
+}

@@ -15,7 +15,7 @@ const Footer = () => {
         <Link to="/terms" className={styles.footerLink}>Şartlar ve Koşullar</Link>
         <Link to="/privacy" className={styles.footerLink}>Gizlilik Politikası</Link>
       </div>
-      <SubscriptionForm /> {/* Add the SubscriptionForm component here */}
+       {/* Add the SubscriptionForm component here */}
       <div className={styles.socialIconsRow}>
         {socials.map(social => (
           <a key={social.id} href={social.link} className={styles.socialIcon}>
@@ -23,6 +23,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
+     
       <div className={styles.footerCopyright}>
         {siteName} &copy; {currentYear} <br/> Tüm hakları saklıdır.
       </div>

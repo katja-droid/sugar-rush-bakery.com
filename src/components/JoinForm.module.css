@@ -1,16 +1,28 @@
 @import '../variables.css';
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #f4ce14;
+}
 .subscriptionForm {
-    margin: 20px 0;
+    padding: 100px 0;
+    border: 2px solid #f4ce14;
+ 
+    width: 50%;
   }
-  
+  .image{
+    width: 30%;
+  }
   .form {
     display: flex;
     flex-direction: column; /* Change to column to stack input and button */
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: var(--text-dark-color);
+   
   }
-  
+
   .emailInput {
     padding: 10px;
     font-size: 16px;
@@ -22,11 +34,11 @@
   }
   
   .subscribeButton {
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-size: 16px;
     font-weight: var(--button-font-weight);
-    background-color: var(--button-secondary-background-color);
-    color: var(--button-secondary-text-color);
+    background-color: var(--button-primary-background-color);
+    color: var(--button-primary-text-color);
     border: none;
     border-radius: var(--button-border-radius);
     cursor: pointer;
@@ -35,9 +47,25 @@
   }
   
   .subscribeButton:hover {
-    background-color: var(--button-secondary-hover-background-color);
-    color: var(--button-secondary-hover-text-color);
+    background-color: var(--button-primary-hover-background-color);
+    color: var(--button-primary-hover-text-color);
   }
   h3{
-    color: #fff;
+    text-align: center;
+    color: #f4ce14;
+  }
+  h2{
+    text-align: center;
+    color: #f4ce14;
+  }
+  @media  (max-width: 900px) {
+    .container{
+      flex-direction: column;}
+
+      .subscriptionForm {
+        width: 95%;
+      }
+      .image{
+        display: none;
+      }
   }

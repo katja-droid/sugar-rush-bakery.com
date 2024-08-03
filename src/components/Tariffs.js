@@ -4,19 +4,19 @@ import styles from './Tariffs.module.css';
 const Tariffs = () => {
     const tariffs = [
         {
-            name: "Temel Plan",
-            description: "Yoğun olmayan saatlerde tüm spor salonu ekipmanlarına ve tesislerine erişim. Fitness yolculuğuna başlamak isteyenler için mükemmel."
+            name: "Pin Up Temel Plan",
+            description: "Pin Up ile fitness serüveninize başlamak için mükemmel bir fırsat. Spor salonunun tüm ekipman ve tesislerine belirli saatlerde erişim sağlanır."
         },
         {
-            name: "Standart Plan",
-            description: "Spor salonu tesislerine, grup derslerine ve kişisel antrenman planlarına tam erişim. Çeşitlilik ve esneklik arayan fitness tutkunları için ideal."
+            name: "Pin Up Standart Plan",
+            description: "Pin Up'da grup dersleri ve kişisel antrenman programlarına tam erişim sunar. Çeşitlilik ve esneklik arayan spor tutkunları için idealdir."
         },
         {
-            name: "Premium Plan",
-            description: "Tüm tesislere sınırsız erişim, premium dersler ve uzman eğitmenlerimizle bire bir antrenman seansları. En üst düzeyde fitness deneyimi isteyenler için tasarlandı."
+            name: "Pin Up Premium Plan",
+            description: "Pin Up tesislerine sınırsız erişim ve uzman eğitmenlerle bire bir özel antrenman seansları. En üst düzey fitness deneyimini arayanlar için tasarlanmıştır."
         }
     ];
-
+    
     return (
         <div className={styles.tariffsContainer}>
             <h2>Tarifelerimiz</h2>

@@ -13,6 +13,9 @@
   width: 96%; /* Ensure the header spans the full width */
   z-index: 1000; /* Ensure the header is on top of other elements */
   padding: 0 2%;
+  border-bottom: 1px solid #f4ce14;
+  max-width: 96vw;
+  overflow: hidden;
 }
 
 .logoContainer {
@@ -47,9 +50,7 @@
   font-weight: 600;
 }
 
-.navLink:hover {
-  color: #97E7E1; /* Adjust hover color as needed */
-}
+
 
 /* Add padding to the top of the main content to avoid it being hidden behind the fixed header */
 .main-content {
@@ -58,6 +59,7 @@
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
+
   .navLink {
     font-size: 0.8em; /* Reduce font size on mobile devices */
   }

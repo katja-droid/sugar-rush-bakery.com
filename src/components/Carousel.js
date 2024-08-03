@@ -14,11 +14,24 @@ const Carousel = ({ slides }) => {
 
   return (
     <div className={styles.carousel}>
-      <button className={styles.prev} onClick={prevSlide}>❮</button>
-      <div className={styles.slide}>
-        <img src={slides[currentIndex]} alt={`Slide ${currentIndex}`} />
+      <div className={styles.slideContainer}>
+        <div className={styles.slide}>
+          <img src={slides[currentIndex]} alt={`Slide ${currentIndex}`} />
+        </div>
+        <div className={styles.navigation}>
+          <button className={styles.prev} onClick={prevSlide}>❮</button>
+          <button className={styles.next} onClick={nextSlide}>❯</button>
+        </div>
       </div>
-      <button className={styles.next} onClick={nextSlide}>❯</button>
+      <div className={styles.indicators}>
+        {slides.map((_, index) => (
+          <button
+            key={index}
+            className={`${styles.indicator} ${index === currentIndex ? styles.active : ''}`}
+            onClick={() => setCurrentIndex(index)}
+          />
+        ))}
+      </div>
     </div>
   );
 };

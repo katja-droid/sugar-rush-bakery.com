@@ -13,24 +13,24 @@ const Team = () => {
     ];
 
     return (
-        <div className={styles.aboutUs}>
-            <div className={styles.imageSection}>
-                <Carousel slides={slides} />
-            </div>
+        <div className={styles.teamContainer}>
             <div className={styles.textSection}>
                 <h2>Pin-Up Fitness Ekibi</h2>
                 <p>
-                    Sağlığınızı ve refahınızı dönüştürmek için en iyi fitness destinasyonunuz olan pin-upaz.podarunochky.com.ua'daki Pin-Up Fitness'e hoş geldiniz. Kolayca ulaşılabilir konumda olan spor salonumuz, hedeflerinize ulaşmanıza yardımcı olacak son teknoloji tesisler ve geniş bir program yelpazesi sunar.
+                    <strong>Pin-Up.vekatextile.com.ua</strong> adresinde yer alan Pin-Up Fitness'e hoş geldiniz. Sağlık ve zindeliğinizi artırmak için en iyi yerdesiniz. Ankara'daki spor salonumuz, hedeflerinizi gerçekleştirmenize yardımcı olacak en son teknolojiye sahip tesisler ve geniş bir program yelpazesi sunmaktadır.
                 </p>
                 <p>
-                    Pin-Up Fitness'te, başarınıza yardımcı olmaya adanmış olağanüstü eğitmen ekibimizle gurur duyuyoruz. Her bir eğitmenimiz sertifikalı olmanın yanı sıra, fitness endüstrisinde eşsiz bir beceri seti ve zengin bir deneyime sahiptir. Güç antrenmanı, kardiyovasküler egzersizler, esneklik ve fonksiyonel fitness gibi çeşitli disiplinlerde uzmanlaşmışlardır.
+                    Pin-Up Fitness olarak, başarı yolculuğunuzda yanınızda olmaya kararlı, olağanüstü bir eğitmen kadrosuna sahibiz. Her bir eğitmenimiz, fitness alanında geniş bir deneyime sahip ve çeşitli disiplinlerde uzmanlaşmış sertifikalı profesyonellerdir. Güç antrenmanı, kardiyo, esneklik ve fonksiyonel fitness gibi birçok alanda size en iyi hizmeti sunmaktadırlar.
                 </p>
                 <p>
-                    Eğitmenlerimiz, kişisel hedeflerinize ve ihtiyaçlarınıza göre kişiselleştirilmiş antrenman planları tasarlamaya tutkuyla bağlıdır, böylece her seans etkili, zorlayıcı ve keyifli olur. İster yeni başlayan ister deneyimli bir sporcu olun, eğitmenlerimiz her adımda size rehberlik ve motivasyon sağlar.
+                    Eğitmenlerimiz, kişisel hedeflerinize ve ihtiyaçlarınıza uygun özel antrenman planları hazırlama konusunda tutkuludur. Bu sayede her antrenman seansınız hem etkili hem de eğlenceli geçer. İster yeni başlayan ister deneyimli bir sporcu olun, eğitmenlerimiz her adımda size rehberlik ve motivasyon sağlar.
                 </p>
                 <p>
-                    Pin-Up Fitness'in canlı topluluğuna katılın ve fitnessın sadece bir hedef değil, bir yaşam tarzı olduğu bir yeri deneyimleyin. Programınıza ve tercihlerinize uygun çeşitli dersler ve programlar keşfedin. Bugün fitness yolculuğunuza bizimle başlayın ve daha sağlıklı, daha güçlü bir size giden ilk adımı atın!
+                    Pin-Up Fitness'in enerjik topluluğuna katılın ve fitnessı sadece bir hedef değil, bir yaşam biçimi haline getirin. Programınıza ve tercihinize uygun çeşitli dersler ve programlar arasından seçim yapabilirsiniz. Bugün fitness yolculuğunuza bizimle başlayarak daha sağlıklı ve güçlü bir yaşam için ilk adımı atın!
                 </p>
+            </div>
+            <div className={styles.imageSection}>
+                <Carousel slides={slides} />
             </div>
         </div>
     );

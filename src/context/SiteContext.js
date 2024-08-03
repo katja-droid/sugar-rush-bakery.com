@@ -4,12 +4,12 @@ const SiteContext = createContext();
 
 export const SiteProvider = ({ children }) => {
   const siteInfo = {
-    siteName: "Pin-Upaz.podarunochky.com.ua",
-    slogan: "Sağlığınız, Bizim Misyonumuz",
-    info: "Antalya'nın Kalbindeki Fitness Sığınağınızı Keşfedin!",
-    thankYouProduct: "Ürünümüze ilgi gösterdiğiniz için teşekkür ederiz. Fitness yolculuğunuzda size destek olmaktan heyecan duyuyoruz!",
-    thankYouSubscription: "Bültenimize abone olduğunuz için teşekkür ederiz. Özel teklifler ve fitness ipuçları için bizi takip etmeye devam edin!",
-    thankYouOrder: "Siparişiniz için teşekkür ederiz. Fitness mükemmelliği yolculuğunuz burada başlıyor!",
+    siteName: "Pin-Up.vekatextile.com.ua", // Domain remains unchanged
+    slogan: "Zindeliğe Adım Atın, Sağlığınızı Güçlendirin",
+    info: "Ankara'nın kalbinde bulunan fitness merkezimize katılın ve sağlığınızı yeni bir seviyeye taşıyın!",
+    thankYouProduct: "Ürünümüze olan ilginiz için teşekkür ederiz. Fitness yolculuğunuzda size rehberlik etmekten mutluluk duyuyoruz!",
+    thankYouSubscription: "Bültenimize abone olduğunuz için teşekkür ederiz. Özel teklifler ve fitness ipuçları için takipte kalın!",
+    thankYouOrder: "Siparişiniz için teşekkürler. Fitness başarı yolculuğunuz burada başlıyor!",
   };
 
   return (
