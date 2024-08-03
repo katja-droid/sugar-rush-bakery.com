@@ -1,7 +1,7 @@
 @import '../variables.css';
 
 .cookieBar {
-  background-color: var(--cookies-background-color);
+  background-color: #000;
   padding: 10px;
   display: flex;
   flex-direction: column;
