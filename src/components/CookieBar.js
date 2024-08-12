@@ -22,11 +22,11 @@ const CookieBar = () => {
     isVisible && (
       <div className={styles.cookieBar}>
         <p>
-          Bu site, kullanıcı deneyimini geliştirmek amacıyla çerezler kullanmaktadır. Çerez kullanımını kabul ettiğinizi belirtmek için lütfen onaylayın. {' '}
-          <Link to="/privacy">Daha fazla bilgi edinin</Link>
+          We use cookies to enhance your experience on our site. Please confirm your acceptance of cookie use. {' '}
+          <Link to="/privacy">Learn more</Link>
         </p>
         <button onClick={handleConfirm} className={styles.confirmButton}>
-          Kabul Et
+          Accept
         </button>
       </div>
     )

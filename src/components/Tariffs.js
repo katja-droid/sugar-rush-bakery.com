@@ -2,34 +2,59 @@ import React from 'react';
 import styles from './Tariffs.module.css';
 
 const Tariffs = () => {
-    const tariffs = [
-        {
-            name: "Pin Up Temel Plan",
-            description: "Pin Up ile fitness serüveninize başlamak için mükemmel bir fırsat. Spor salonunun tüm ekipman ve tesislerine belirli saatlerde erişim sağlanır."
-        },
-        {
-            name: "Pin Up Standart Plan",
-            description: "Pin Up'da grup dersleri ve kişisel antrenman programlarına tam erişim sunar. Çeşitlilik ve esneklik arayan spor tutkunları için idealdir."
-        },
-        {
-            name: "Pin Up Premium Plan",
-            description: "Pin Up tesislerine sınırsız erişim ve uzman eğitmenlerle bire bir özel antrenman seansları. En üst düzey fitness deneyimini arayanlar için tasarlanmıştır."
-        }
-    ];
-    
-    return (
-        <div className={styles.tariffsContainer}>
-            <h2>Tarifelerimiz</h2>
-            <div className={styles.tariffList}>
-                {tariffs.map((tariff, index) => (
-                    <div key={index} className={styles.tariffItem}>
-                        <h3>{tariff.name}</h3>
-                        <p>{tariff.description}</p>
-                    </div>
-                ))}
-            </div>
-        </div>
-    );
+  const fillings = [
+    {
+      name: "Chocolate Filling",
+      description: "Rich and creamy chocolate filling to enhance your desserts.",
+    },
+    {
+      name: "Vanilla Cream",
+      description: "Light and smooth vanilla cream filling for your treats.",
+    },
+    {
+      name: "Fruit Jam",
+      description: "Delicious fruit jam with fresh fruit pieces for a sweet touch.",
+    },
+    {
+      name: "Lemon Curd",
+      description: "Refreshing lemon curd to add a zesty twist to your sweets.",
+    },
+    {
+      name: "Peanut Butter",
+      description: "Rich and creamy peanut butter filling.",
+    },
+    {
+      name: "Caramel Sauce",
+      description: "Delectable caramel sauce filling for your desserts.",
+    },
+  ];
+
+  return (
+    <div className={styles.fillingsContainer}>
+      <h2>Our Filling Options</h2>
+      <div className={styles.fillingList}>
+        {fillings.map((filling, index) => (
+          <div
+            key={index}
+            className={styles.fillingItem}
+            style={{
+              backgroundColor: index % 2 === 0 ? '#fe5d9f' : '#ffe6e8',
+              color: index % 2 === 0 ? 'white' : '#fe5d9f',
+            }}
+          >
+            <h3  style={{
+              
+              color: index % 2 === 0 ? 'white' : '#fe5d9f',
+            }}>{filling.name}</h3>
+            <p style={{
+              
+              color: index % 2 === 0 ? 'white' : '#fe5d9f',
+            }}>{filling.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Tariffs;

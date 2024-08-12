@@ -38,19 +38,18 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.navLinks}>
-       <span onClick={() => handleLinkClick('aboutus-section', '/')} className={styles.navLink}>Hakkımızda</span>
-       <span onClick={() => handleLinkClick('tariffs-section', '/')} className={styles.navLink}>Tarifeler</span>
-       </nav>
+       <span onClick={() => handleLinkClick('tariffs-section', '/')} className={styles.navLink}>Filling Options</span>
+       <span onClick={() => handleLinkClick('gallery-section', '/')} className={styles.navLink}>Gallery</span>
+     
+       
+        <span onClick={() => handleLinkClick('team-section', '/')} className={styles.navLink}>Why Us?</span>
+        <span onClick={() => handleLinkClick('contacts-section', '/')} className={styles.navLink}>Contacts</span>
+      </nav>
       <div className={styles.logoContainer}>
         <Link to="/">
           <img src={logo} alt="Logo" className={styles.logo} />
         </Link>
       </div>
-      <nav className={styles.navLinks}>
-       
-        <span onClick={() => handleLinkClick('team-section', '/')} className={styles.navLink}>Ekibimiz</span>
-        <span onClick={() => handleLinkClick('sales-section', '/')} className={styles.navLink}>Özel Teklifler</span>
-      </nav>
     </header>
   );
 };

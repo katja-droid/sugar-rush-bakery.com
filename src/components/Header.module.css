@@ -7,13 +7,13 @@
   align-items: center;
   height: 13vh;
   background-color: var(--header-color); /* Adjust background color as needed */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+ /* Optional: Add shadow for depth */
   position: fixed; /* Make the header fixed */
   top: 0;
   width: 96%; /* Ensure the header spans the full width */
   z-index: 1000; /* Ensure the header is on top of other elements */
   padding: 0 2%;
-  border-bottom: 1px solid #f4ce14;
+  border-bottom: 3px solid #fe5d9f;
   max-width: 96vw;
   overflow: hidden;
 }
@@ -43,7 +43,7 @@
 
 .navLink {
   cursor: pointer;
-  color: var(--button-primary-text-color); /* Adjust color as needed */
+  color: var(--text-light-color); /* Adjust color as needed */
   text-decoration: none;
   font-size: 1.2em;
   transition: color 0.3s;

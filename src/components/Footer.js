@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.linksRow}>
-        <Link to="/terms" className={styles.footerLink}>Şartlar ve Koşullar</Link>
-        <Link to="/privacy" className={styles.footerLink}>Gizlilik Politikası</Link>
+        <Link to="/terms" className={styles.footerLink}>Terms and Conditions</Link>
+        <Link to="/privacy" className={styles.footerLink}>Privacy Policy</Link>
       </div>
        {/* Add the SubscriptionForm component here */}
       <div className={styles.socialIconsRow}>
@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
      
       <div className={styles.footerCopyright}>
-        {siteName} &copy; {currentYear} <br/> Tüm hakları saklıdır.
+        {siteName} &copy; {currentYear} <br/> All rights reserved.
       </div>
     </footer>
   );

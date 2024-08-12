@@ -1,39 +1,30 @@
 import React from 'react';
 import styles from './Team.module.css';
-import trainers1 from '../assets/trainers1.webp';
-import trainers2 from '../assets/trainers2.webp';
-import trainers3 from '../assets/trainers3.webp';
-import Carousel from './Carousel';
+import bakeryImage from '../assets/bg.webp'; // Replace with an appropriate image for your bakery
 
 const Team = () => {
-    const slides = [
-        trainers1,
-        trainers2,
-        trainers3,
-    ];
-
-    return (
-        <div className={styles.teamContainer}>
-            <div className={styles.textSection}>
-                <h2>Pin-Up Fitness Ekibi</h2>
-                <p>
-                    <strong>Pin-Up.vekatextile.com.ua</strong> adresinde yer alan Pin-Up Fitness'e hoş geldiniz. Sağlık ve zindeliğinizi artırmak için en iyi yerdesiniz. Ankara'daki spor salonumuz, hedeflerinizi gerçekleştirmenize yardımcı olacak en son teknolojiye sahip tesisler ve geniş bir program yelpazesi sunmaktadır.
-                </p>
-                <p>
-                    Pin-Up Fitness olarak, başarı yolculuğunuzda yanınızda olmaya kararlı, olağanüstü bir eğitmen kadrosuna sahibiz. Her bir eğitmenimiz, fitness alanında geniş bir deneyime sahip ve çeşitli disiplinlerde uzmanlaşmış sertifikalı profesyonellerdir. Güç antrenmanı, kardiyo, esneklik ve fonksiyonel fitness gibi birçok alanda size en iyi hizmeti sunmaktadırlar.
-                </p>
-                <p>
-                    Eğitmenlerimiz, kişisel hedeflerinize ve ihtiyaçlarınıza uygun özel antrenman planları hazırlama konusunda tutkuludur. Bu sayede her antrenman seansınız hem etkili hem de eğlenceli geçer. İster yeni başlayan ister deneyimli bir sporcu olun, eğitmenlerimiz her adımda size rehberlik ve motivasyon sağlar.
-                </p>
-                <p>
-                    Pin-Up Fitness'in enerjik topluluğuna katılın ve fitnessı sadece bir hedef değil, bir yaşam biçimi haline getirin. Programınıza ve tercihinize uygun çeşitli dersler ve programlar arasından seçim yapabilirsiniz. Bugün fitness yolculuğunuza bizimle başlayarak daha sağlıklı ve güçlü bir yaşam için ilk adımı atın!
-                </p>
-            </div>
-            <div className={styles.imageSection}>
-                <Carousel slides={slides} />
-            </div>
-        </div>
-    );
+  return (
+    <div className={styles.aboutUsContainer}>
+      <div className={styles.textSection}>
+        <h2>Why Coose Rush Bakery?</h2>
+        <p>
+          <strong>Sugar Rush Bakery</strong> is your ultimate destination for freshly baked goods in the heart of Sydney. Our bakery offers a wide array of delectable pastries, breads, and cakes, all crafted with love and the finest ingredients.
+        </p>
+        <p>
+          At Sugar Rush Bakery, we believe in the power of a good treat to bring joy and warmth to your day. Our dedicated team of bakers works tirelessly to create delicious and beautiful products that cater to every taste and occasion. Whether you're a pastry enthusiast or new to the world of baked goods, we have something for everyone.
+        </p>
+        <p>
+          Our commitment to quality and freshness means that every item is baked on-site daily, ensuring you receive only the best. From classic croissants to unique custom cakes, our offerings are designed to delight and satisfy.
+        </p>
+        <p>
+          Join our welcoming community and make Sugar Rush Bakery your go-to spot for indulgent treats. With a cozy atmosphere and friendly service, we aim to make your experience memorable and enjoyable. Visit us today and discover the sweet side of life!
+        </p>
+      </div>
+      <div className={styles.imageSection}>
+        <img src={bakeryImage} alt="Sugar Rush Bakery" className={styles.bakeryImage} />
+      </div>
+    </div>
+  );
 };
 
 export default Team;

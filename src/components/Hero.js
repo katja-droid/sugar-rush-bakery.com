@@ -20,17 +20,17 @@ const Hero = () => {
             offset={-calculateFixedHeaderHeight()}
             className={`${styles.orderButton}`}
           >
-            KATIL
+            ORDER NOW
           </ScrollLink>
-          <h2>Pin Up Fitness Hakkında</h2>
-          <p>
-            Başkent Ankara'da sağlık ve zindeliğinizi yeniden keşfetmek için ideal bir yer olan <strong>Pin Up Fitness</strong>'a hoş geldiniz. Son teknolojiye sahip spor salonumuz ve çeşitli fitness programlarımızla, ister yeni başlayın ister deneyimli bir sporcu olun, tüm hedeflerinize ulaşmanız için yanınızdayız.
+          <h2 >About Sugar Rush Bakery</h2>
+          <p className={styles.description}>
+            Welcome to <strong>Sugar Rush Bakery</strong>, your go-to spot for irresistible pastries and artisanal breads located in the heart of Sydney. Our bakery is a sweet haven for both seasoned pastry enthusiasts and newcomers looking to indulge in delicious baked goods.
           </p>
-          <p>
-            Ankara'nın merkezinde bulunan Pin Up Fitness, modern tesisleri ve destekleyici topluluk ortamını benzersiz bir şekilde bir araya getiriyor. Uzman eğitmenlerimiz, kişisel hedeflerinize ulaşmanıza yardımcı olmaya adanmıştır ve size özel antrenman planları sunma konusunda uzmandır.
+          <p className={styles.description}>
+            Situated in the vibrant center of Sydney, Sugar Rush Bakery combines modern baking techniques with traditional recipes to deliver an unforgettable taste experience. Our skilled bakers are dedicated to crafting treats that cater to all tastes and occasions, using only the finest ingredients.
           </p>
-          <p>
-            Türkiye'nin en etkileyici şehirlerinden birinde daha sağlıklı bir yaşam tarzı kazanmak için canlı topluluğumuza katılın. Esnek üyelik seçenekleri ve sıcak atmosferiyle fitness yolculuğunuza başlamak için harika bir yerdir. Bizi <b>Pin-Up.vekatextile.com.ua</b> adresinde ziyaret edin ve daha güçlü, sağlıklı bir hayata adım atın!
+          <p className={styles.description}>
+            Join our lively community and embrace a sweeter lifestyle. With flexible ordering options and a warm, welcoming atmosphere, our bakery is the perfect place to begin your culinary adventure. Visit us at <b>SugarRushBakery.com.au</b> and take a delicious step into a world of delightful possibilities!
           </p>
         </div>
         <div className={styles.buttons}></div>

@@ -7,37 +7,67 @@ const Privacy = () => {
 
   return (
     <div className={styles.privacyInfo}>
-      <h1>GİZLİLİK POLİTİKASI</h1>
-      <p>{siteName} olarak, gizliliğinize ve bilgilerinizin güvenliğine büyük önem veriyoruz. Bu doküman, <strong>Pin-Up.vekatextile.com.ua</strong> adresindeki hizmetlerimizi ve web sitemizi kullanarak kabul ettiğiniz gizlilik uygulamalarımızı açıklamakta ve verilerinizi nasıl koruduğumuzu ayrıntılarıyla belirtmektedir.</p>
+      <h1>Privacy Policy</h1>
+      <p>
+        At {siteName}, we value your privacy and are committed to protecting your personal information. This document outlines our privacy practices and details how we safeguard your data when you use our services and website at <strong>sugar-rush-bakery.com</strong>.
+      </p>
 
-      <h2>1. VERİ TOPLAMA</h2>
-      <p><strong>Kişisel Bilgiler:</strong> Üyelik oluşturma ve ders rezervasyonları sırasında adınız, e-posta adresiniz, posta adresiniz ve ödeme bilgilerinizi toplarız.</p>
-      <p><strong>Etkileşim Verileri:</strong> Çerezler gibi teknolojiler aracılığıyla sitemizle olan etkileşiminizi izleyerek IP adresiniz ve tarayıcı türünüz gibi bilgileri toplayarak kullanıcı deneyiminizi geliştiririz.</p>
+      <h2>1. Data Collection</h2>
+      <p>
+        <strong>Personal Information:</strong> We collect your name, email address, postal address, and payment information when you place an order or subscribe to our newsletter.
+      </p>
+      <p>
+        <strong>Interaction Data:</strong> We use cookies and similar technologies to track your interactions with our site, collecting information such as your IP address and browser type to enhance your user experience.
+      </p>
 
-      <h2>2. VERİ KULLANIMI</h2>
-      <p><strong>Üyelik Yönetimi:</strong> Kişisel bilgileriniz, üyeliğinizi yönetmek, ders programlarını organize etmek ve sizinle iletişimde kalmak için kullanılır.</p>
-      <p><strong>İletişim:</strong> Sınıf onayları, program değişiklikleri ve üyeliğinizle ilgili önemli duyuruları iletmek için iletişim bilgilerinizi kullanırız.</p>
-      <p><strong>Özelleştirme:</strong> Onayınız doğrultusunda, geçmiş etkileşimleriniz ve tercihlerinize göre web sitesi deneyiminizi kişiselleştirir, size özel öneriler ve hizmetler sunarız.</p>
-      <p><strong>Hizmet Geliştirme:</strong> Daha iyi bir kullanıcı deneyimi sağlamak için topladığımız verileri analiz ederek sitemizi ve hizmetlerimizi sürekli iyileştiririz.</p>
+      <h2>2. Data Usage</h2>
+      <p>
+        <strong>Order Fulfillment:</strong> Your personal information is used to process orders, manage your account, and communicate with you regarding your purchases.
+      </p>
+      <p>
+        <strong>Communication:</strong> We use your contact information to send order confirmations, delivery updates, and important announcements about our services.
+      </p>
+      <p>
+        <strong>Customization:</strong> With your consent, we personalize your website experience based on your past interactions and preferences, providing tailored recommendations and services.
+      </p>
+      <p>
+        <strong>Service Improvement:</strong> We analyze collected data to continuously improve our website and offerings, ensuring a better user experience.
+      </p>
 
-      <h2>3. VERİ PAYLAŞIMI</h2>
-      <p><strong>İşletme Operasyonları:</strong> Verileriniz, ders yönetimi ve ödeme işlemleri gibi operasyonları kolaylaştırmak için katı gizlilik anlaşmaları altında üçüncü taraf hizmet sağlayıcılarla paylaşılabilir.</p>
-      <p><strong>Yasal Yükümlülükler:</strong> Yasal yükümlülükler doğrultusunda veya haklarımızı ve kamu güvenliğini korumak için gerektiğinde bilgilerinizi açıklayabiliriz.</p>
+      <h2>3. Data Sharing</h2>
+      <p>
+        <strong>Business Operations:</strong> Your data may be shared with third-party service providers to facilitate operations such as order delivery and payment processing, under strict confidentiality agreements.
+      </p>
+      <p>
+        <strong>Legal Obligations:</strong> We may disclose your information if required by law or to protect our rights and the safety of our customers.
+      </p>
 
-      <h2>4. GÜVENLİK ÖNLEMLERİ</h2>
-      <p>Güvenlik protokollerimiz, kişisel verilerinizi yetkisiz erişim ve kötüye kullanıma karşı korumak üzere tasarlanmıştır. Ancak, internet üzerindeki veri iletimlerinin doğası gereği bazı riskler taşıyabileceğini unutmayın.</p>
+      <h2>4. Security Measures</h2>
+      <p>
+        Our security protocols are designed to protect your personal data from unauthorized access and misuse. However, please be aware that data transmission over the internet carries inherent risks.
+      </p>
 
-      <h2>5. GİZLİLİK TERCİHLERİ</h2>
-      <p><strong>Tanıtım Mesajlarından Çıkış:</strong> Herhangi bir zamanda, e-posta iletişimlerimizdeki bağlantıları kullanarak veya doğrudan bize ulaşarak tanıtım mesajlarını almayı bırakabilirsiniz.</p>
-      <p><strong>Çerezler:</strong> Etkileşim verilerinizin nasıl toplandığını kontrol etmek için çerez tercihlerinizi web tarayıcınızın ayarlarından değiştirebilirsiniz.</p>
+      <h2>5. Privacy Preferences</h2>
+      <p>
+        <strong>Opt-Out of Promotional Messages:</strong> You can opt out of receiving promotional messages at any time by following the links in our emails or contacting us directly.
+      </p>
+      <p>
+        <strong>Cookies:</strong> You can control how your interaction data is collected by adjusting your cookie preferences in your web browser settings.
+      </p>
 
-      <h2>6. ÇOCUKLARIN GÜVENLİĞİ</h2>
-      <p>16 yaş altındaki bireylerden bilerek veri toplamıyoruz. Yanlışlıkla toplandığını tespit ettiğimiz bilgileri sistemlerimizden derhal sileceğiz.</p>
+      <h2>6. Children's Privacy</h2>
+      <p>
+        We do not knowingly collect data from individuals under 16 years of age. If we become aware that such information has been inadvertently collected, we will promptly delete it from our systems.
+      </p>
 
-      <h2>7. POLİTİKA GÜNCELLEMELERİ</h2>
-      <p>Gizlilik politikamızı, yeni uygulamaları yansıtmak amacıyla düzenli olarak güncelliyoruz. Bu politikayı düzenli aralıklarla gözden geçirmenizi öneririz, çünkü hizmetlerimizi güncellemeler sonrasında kullanmaya devam etmeniz, yapılan değişiklikleri kabul ettiğiniz anlamına gelir.</p>
+      <h2>7. Policy Updates</h2>
+      <p>
+        We regularly update our privacy policy to reflect new practices. We recommend reviewing this policy periodically, as continued use of our services following updates indicates acceptance of any changes.
+      </p>
 
-      <p>Gizlilik uygulamalarımız hakkında sorularınız veya daha fazla bilgi almak için lütfen <a href={`mailto:info@pin-up.vekatextile.com.ua`}>info@pin-up.vekatextile.com.ua</a> adresinden bizimle iletişime geçin. Sorularınızı hızlı bir şekilde yanıtlamak ve gizlilik haklarınızı korumaya kararlıyız.</p>
+      <p>
+        For questions or more information about our privacy practices, please contact us at <a href="mailto:info@sugar-rush-bakery.com">info@sugar-rush-bakery.com</a>. We are committed to answering your inquiries promptly and protecting your privacy rights.
+      </p>
     </div>
   );
 };

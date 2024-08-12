@@ -27,7 +27,7 @@
   
   .termsInfo a {
     text-decoration: none;
-    color: var(--button-primary-background-color);
+    color: #fe5d9f;
     font-weight: var(--button-font-weight);
   }
   

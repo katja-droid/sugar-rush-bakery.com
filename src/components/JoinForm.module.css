@@ -1,71 +1,56 @@
-@import '../variables.css';
-.container{
+.container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-  color: #f4ce14;
+  padding: 20px;
 }
-.subscriptionForm {
-    padding: 100px 0;
-    border: 2px solid #f4ce14;
- 
-    width: 50%;
-  }
-  .image{
-    width: 30%;
-  }
-  .form {
-    display: flex;
-    flex-direction: column; /* Change to column to stack input and button */
-    justify-content: center;
-    align-items: center;
-    color: var(--text-dark-color);
-   
-  }
 
-  .emailInput {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px; /* Add margin below the input */
-    width: 100%; /* Full width */
-    max-width: 300px; /* Max width to keep it from being too wide */
-  }
-  
-  .subscribeButton {
-    padding: 20px 20px;
-    font-size: 16px;
-    font-weight: var(--button-font-weight);
-    background-color: var(--button-primary-background-color);
-    color: var(--button-primary-text-color);
-    border: none;
-    border-radius: var(--button-border-radius);
-    cursor: pointer;
-    width: 100%; /* Full width */
-    max-width: 300px; /* Max width to keep it from being too wide */
-  }
-  
-  .subscribeButton:hover {
-    background-color: var(--button-primary-hover-background-color);
-    color: var(--button-primary-hover-text-color);
-  }
-  h3{
-    text-align: center;
-    color: #f4ce14;
-  }
-  h2{
-    text-align: center;
-    color: #f4ce14;
-  }
-  @media  (max-width: 900px) {
-    .container{
-      flex-direction: column;}
+.orderForm {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 
-      .subscriptionForm {
-        width: 95%;
-      }
-      .image{
-        display: none;
-      }
-  }
+}
+
+h2 {
+  font-size: 24px;
+  color: #fe5d9f;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.orderButton {
+  padding: 12px;
+  background-color: #fe5d9f;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.orderButton:hover {
+  background-color: #ff8fb1;
+}

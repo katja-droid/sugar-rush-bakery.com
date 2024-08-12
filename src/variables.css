@@ -1,36 +1,36 @@
 :root {
      /*general*/
-    --background-color: #000;
-    --header-color: #45474B;
-    --text-light-color: #f4ce14;
-    --text-dark-color: #bebebe;
+    --background-color: #fff;
+    --header-color: #fff;
+    --text-light-color: #fe5d9f;
+    --text-dark-color: #fe5d9f;
     --font-family: "Josefin Sans", sans-serif;
      /*buttons*/
-    --button-primary-text-color: #f4ce14;
-    --button-secondary-text-color: #45474B;
-    --button-primary-background-color: #45474B;
-    --button-secondary-background-color: #f4ce14;
-    --button-primary-hover-background-color: #f4ce14;
-    --button-secondary-hover-background-color: #f4ce14;
-    --button-primary-hover-text-color: #45474B;
-    --button-secondary-hover-text-color: #45474B ;
+    --button-primary-text-color: hsl(335, 99%, 68%);
+    --button-secondary-text-color: #fff;
+    --button-primary-background-color: #fff;
+    --button-secondary-background-color: #fe5d9f;
+    --button-primary-hover-background-color: #fe5d9f;
+    --button-secondary-hover-background-color: #fe5d9f;
+    --button-primary-hover-text-color: #F8F6E3;
+    --button-secondary-hover-text-color: #F8F6E3 ;
     --button-font-weight: 550;
     --button-border-radius: 0;
      /*placeholder*/
-     --placeholder-color: #999;
+     --placeholder-color: #fff;
      /*product badge*/
-     --badge-background-color: #f4ce14;
+     --badge-background-color: #fe5d9f;
      --badge-text-color: #fff;
      --badge-border-radius: 3px;
      --badge-font-weight: 550;
      /*footer*/
-     --footer-background-color: #45474B;
+     --footer-background-color: #fe5d9f;
      --footer-link-color: #F8F6E3;
      --footer-copy-color: #F8F6E3;
      /*cookies*/
-     --cookies-background-color: #45474B;
+     --cookies-background-color: #F8F6E3;
      --cookies-text-color: #F8F6E3;
-     --cookies-link-color: #f4ce14;
+     --cookies-link-color: #fe5d9f;
      --cookies-copy-color: #fcffde;
      --cookies-link-font-weight: 550;
   }

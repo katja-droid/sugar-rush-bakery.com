@@ -9,15 +9,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #f4ce14; /* White text color for better contrast */
+  color: #fff; /* White text color for better contrast */
   text-align: center;
   overflow: hidden; /* Ensure content doesn't overflow */
   background-image: url('../assets/bg.webp');
 }
 
-.description{
-  color: #fff;
-}
+
 .slider {
   position: absolute;
   top: 0;
@@ -65,15 +63,16 @@
 .slogan {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #f4ce14;
+  color: #fe5d9f;
 }
 
-.description {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+.description{
+  color: #fff;
+  font-size: 1.2em;
+  margin: 10px;
 }
 .aboutUs{
-  color: #bebebe;
+  color: #fff;
 }
 .aboutUs h2{
   color: #bebebe;
@@ -101,7 +100,7 @@
 .orderButton {
   margin: 0 auto;
   display: inline-block;
-  padding: 15px 25px;
+  padding: 15px 15px;
   font-size: 1.5rem;
   color: var(--button-primary-text-color);
   background-color: var(--button-primary-background-color);
@@ -111,7 +110,7 @@
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.9s ease;
-  border: 1px solid #f4ce14;
+  border: 1px solid #fe5d9f;
 }
 .orderButton:hover {
   background-color: var(--button-primary-hover-background-color);
@@ -134,7 +133,7 @@
 
   .orderButton {
     font-size: 1rem;
-    padding: 8px 8px;
+    padding: 8px 0;
     width: 80%;
   }
 }
